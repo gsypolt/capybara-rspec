@@ -1,6 +1,6 @@
 # capybara-rspec
 
-## Project Structure
+## Setup Project Structure
 
 ```
 > cd $WORKSPACE
@@ -13,4 +13,25 @@ Generates Gemfile
 Generate rspec folder structure 
 > rspec --init
 
+```
+
+## Sauce Labs Configuration
+
+
+
+```
+export SAUCE_USERNAME=your_username
+export SAUCE_ACCESS_KEY=your_access_key
+```
+
+## Execute Tests
+
+Single Tests
+```
+> rspec spec/polls/polls_spec.rb
+```
+
+Entire Suite of Tests
+```
+>
 ```

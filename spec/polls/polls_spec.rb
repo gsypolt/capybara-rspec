@@ -1,7 +1,7 @@
 describe "front module for polls -", :polls, :type => :feature  do
 
   before :each do
-    visit '/module-showcase/polldaddy-poll/'
+    visit 'http://www.usatoday.com/module-showcase/polldaddy-poll/'
   end
 
   it "will show poll results when clicking on View Results" do
