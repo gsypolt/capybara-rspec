@@ -33,5 +33,5 @@ Single Tests
 
 Entire Suite of Tests
 ```
->
+> rspec spec
 ```

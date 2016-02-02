@@ -18,8 +18,10 @@ Capybara.register_driver :selenium do | app|
                                  :desired_capabilities => capabilities)
 end
 
-Capybara.default_max_wait_time = 10
+Capybara.default_max_wait_time = 60
 Capybara.current_driver = :selenium
+# Capybara.run_server = false
+# Capybara.app_host = 'http://www.usatoday.com'
 
 RSpec.configure do |config|
   config.include Capybara::DSL
